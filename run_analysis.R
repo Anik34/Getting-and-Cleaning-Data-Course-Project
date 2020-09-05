@@ -1,3 +1,5 @@
+library(reshape2)
+
 #reading features and activity data
 features <- read.table("./UCI HAR Dataset/features.txt")
 activities <- read.table("./UCI HAR Dataset/activity_labels.txt")
